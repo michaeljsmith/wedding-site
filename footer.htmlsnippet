@@ -1,0 +1,4 @@
+<div>
+<p>Footer</p>
+<include file="test/footerdep.htmlsnippet">
+</div>
