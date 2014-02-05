@@ -1,14 +1,10 @@
 <html>
   <head>
+    <include file="head.htmlsnippet">
     <title>Kristy and Michael's Wedding - Reception</title>
   </head>
   <body>
     <h1>Reception</h1>
-
-    <p>
-    The ceremony will take place at <strong>1:00pm</strong> at beautiful <a
-      href="http://www.st-stephens.com.au/">St Stephen's Church</a> in Willoughby.
-    </p>
 
     <p>
     Following the wedding ceremony, and a period for taking photos of the bridal party, the reception will begin with canapés at <strong>5:00pm</strong> at Curzon Hall in Marsfield.
@@ -17,7 +13,7 @@
     <h2>Getting There</h2>
 
     <p>
-    The hall is located at 53 Agincourt Rd, Marsfield. It is about a 15 minute drive from <a href="wedding.html">the church</a>.
+    The hall is located at 53 Agincourt Rd, Marsfield. It is about a 15 minute drive from <a href="ceremony.html">the church</a>.
     </p>
 
     <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps?f=d&amp;source=s_d&amp;saddr=St+Stephens+Anglican+Church+Willoughby,+Mowbray+Rd,+Chatswood+NSW&amp;daddr=Curzon+Hall,+Agincourt+Rd,+Marsfield+NSW&amp;hl=en&amp;geocode=FSA3_P0dIAcDCSFVTdXjAhkUjylFgeukLKkSazFVTdXjAhkUjw%3BFTyO_P0dUKgBCSEjGyPUDcOGVinRbrd5eKYSazEjGyPUDcOGVg&amp;aq=0&amp;oq=Curzon&amp;sll=-33.869296,151.192517&amp;sspn=0.051882,0.093513&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=-33.792844,151.148186&amp;spn=0.068477,0.109863&amp;z=13&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.au/maps?f=d&amp;source=embed&amp;saddr=St+Stephens+Anglican+Church+Willoughby,+Mowbray+Rd,+Chatswood+NSW&amp;daddr=Curzon+Hall,+Agincourt+Rd,+Marsfield+NSW&amp;hl=en&amp;geocode=FSA3_P0dIAcDCSFVTdXjAhkUjylFgeukLKkSazFVTdXjAhkUjw%3BFTyO_P0dUKgBCSEjGyPUDcOGVinRbrd5eKYSazEjGyPUDcOGVg&amp;aq=0&amp;oq=Curzon&amp;sll=-33.869296,151.192517&amp;sspn=0.051882,0.093513&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=-33.792844,151.148186&amp;spn=0.068477,0.109863&amp;z=13" style="color:#0000FF;text-align:left">View Larger Map</a></small>
@@ -27,6 +23,55 @@
     <p>
     Parking is available in the grounds of the hall. In addition street parking is quite readily available in case that becomes full.
     </p>
+
+    <h2>Public Transport</h2>
+
+    <p>
+    Getting to Curzon Hall via public transport is a bit more complicated, and requires two buses.
+    Other routes are possible, but the route described here is the one that involves the least
+    walking and fewest changes.
+    </p>
+
+    <h3>Leg 1: Willoughby to Chatswood (9 mins)</h3>
+
+    <p>
+    <strong>Note:</strong> This bus only leaves every <strong>70 minutes</strong> on Saturdays. The most
+    convenient time to catch the bus after the ceremony will be at 3:08pm at the bus stop just east
+    of the church. The total travel time will be about 70 minutes.
+    </p>
+
+    <p>
+    Walk east along Mowbray Rd about 150 metres to a bus stop for the 267 bus (on South side of
+    road). Take the 267 bus in the direction of Chatswood for about 9 minutes to Chatswood
+    Interchange, Orchard Rd, near Chatswood station. Tickets can be purchased from the bus driver, your destination is
+    Chatswood (the end of the line). The cost should be $2.30 for an adult.</p>
+
+    <table>
+      <tr><th></th><th>Route Map</th><th>Timetable</th></tr>
+      <tr><td>267</td><td><a href="buses/267/map.pdf">map.pdf</a></td><td><a href="buses/267/timetable.pdf">timetable.pdf</a></td></tr>
+    </table>
+
+    <h3>Leg 2: Chatswood to Marsfield (9 mins)</h3>
+
+    <p>
+    <strong>Note:</strong>Due to Sydney's ticketing system it is necessary to pay separately for
+    each bus leg, even if they are taken as part of a single trip.
+    </p>
+
+    <p>
+    Within the Chatswood bus interchange, walk to stand L on Victoria Avenue. This may involve
+    crossing the train tracks. Take the 545 bus in the direction of Parramatta. Get off at
+    Balaclava Rd near Agincourt Rd in Marsfield. This leg will take about 33 minutes. Tickets can be
+    purchased from the bus driver - tell him you're travelling to Balaclava Rd. The cost should be
+    about $4.60 for an adult.
+    </p>
+
+    <table>
+      <tr><th></th><th>Route Map</th><th>Timetable</th></tr>
+      <tr><td>545</td><td><a href="buses/545/map.pdf">map.pdf</a></td><td><a href="buses/545/timetable.pdf">timetable.pdf</a></td></tr>
+    </table>
+
+    <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps?f=d&amp;source=s_d&amp;saddr=St+Stephens+Anglican+Church+Willoughby,+Mowbray+Rd,+Chatswood+NSW&amp;daddr=Curzon+Hall,+53+Agincourt+Road,+Marsfield+NSW+2122&amp;hl=en&amp;geocode=FSA3_P0dIAcDCSFVTdXjAhkUjylFgeukLKkSazFVTdXjAhkUjw%3BFTyO_P0dUKgBCSnRbrd5eKYSazEjGyPUDcOGVg&amp;aq=0&amp;oq=St+Stephen's&amp;sll=-33.792416,151.148357&amp;sspn=0.087308,0.168915&amp;dirflg=r&amp;ttype=now&amp;noexp=0&amp;noal=0&amp;sort=walk&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;start=0&amp;ll=-33.792416,151.148357&amp;spn=0.068477,0.109863&amp;z=13&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.au/maps?f=d&amp;source=embed&amp;saddr=St+Stephens+Anglican+Church+Willoughby,+Mowbray+Rd,+Chatswood+NSW&amp;daddr=Curzon+Hall,+53+Agincourt+Road,+Marsfield+NSW+2122&amp;hl=en&amp;geocode=FSA3_P0dIAcDCSFVTdXjAhkUjylFgeukLKkSazFVTdXjAhkUjw%3BFTyO_P0dUKgBCSnRbrd5eKYSazEjGyPUDcOGVg&amp;aq=0&amp;oq=St+Stephen's&amp;sll=-33.792416,151.148357&amp;sspn=0.087308,0.168915&amp;dirflg=r&amp;ttype=now&amp;noexp=0&amp;noal=0&amp;sort=walk&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;start=0&amp;ll=-33.792416,151.148357&amp;spn=0.068477,0.109863&amp;z=13" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
   </body>
 </html>

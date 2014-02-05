@@ -1,5 +1,6 @@
 <html>
   <head>
+    <include file="head.htmlsnippet">
     <title>Kristy and Michael's Wedding - RSVP</title>
   </head>
   <body>

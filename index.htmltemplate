@@ -1,5 +1,6 @@
 <html>
   <head>
+    <include file="head.htmlsnippet">
     <title>Kristy and Michael's Wedding</title>
   </head>
   <body>
@@ -15,11 +16,11 @@
 
     <h2>Ceremony</h2>
     <div>
-      <div>1:00pm</div>
+      <div>1:30pm</div>
       <div>St Stephen's Church</div>
       <div>211 Mowbray Rd, Willoughby</div>
     </div>
-    <p>(<a href="wedding.html">More information</a>)<p>
+    <p>(<a href="ceremony.html">More information</a>)<p>
 
     <h2>Reception</h2>
     <div>
@@ -32,6 +33,13 @@
     <h2>RSVP</h2>
     <p>
     We request that guests <a href="rsvp.html">RSVP</a> by the 15th of April, 2014. Please also <a href="rsvp.html">let us know</a> if you have any other queries.
+    </p>
+
+    <h2>Gifts</h2>
+    <p>
+    Gifts are not requested - we have only a small house with limited storage and already have most
+    of the things we need. However some friends and relatives have been asking what they can give,
+    so for this reason a Wishing Well will be present at the reception.
     </p>
 
   </body>
