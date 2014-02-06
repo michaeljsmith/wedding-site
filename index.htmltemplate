@@ -4,6 +4,7 @@
     <title>Kristy and Michael's Wedding</title>
   </head>
   <body>
+    <include file="header.htmlsnippet">
     <h1>Kristy and Michael's Wedding</h1>
 
     <p>
@@ -42,5 +43,6 @@
     so for this reason a Wishing Well will be present at the reception.
     </p>
 
+    <include file="footer.htmlsnippet">
   </body>
 </html>

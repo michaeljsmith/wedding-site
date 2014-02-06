@@ -4,6 +4,7 @@
     <title>Kristy and Michael's Wedding - RSVP</title>
   </head>
   <body>
+    <include file="header.htmlsnippet">
     <h1>RSVP and Contact Details</h1>
 
     <p>
@@ -37,5 +38,6 @@
       </div>
     </div>
 
+    <include file="footer.htmlsnippet">
   </body>
 </html>

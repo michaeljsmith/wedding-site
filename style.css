@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'Cabin', sans-serif;
+  color: #061C37;
+  background: #EEEFE4;
+}
+
+#container {
+  width: 1000px;
+  background-color: #ccddee;
+}
+
+#header {
+  height: 250px;
+  background-image: url('images/header-bkg.jpg');
+  background-size: 100%;
+  background-color:#cccccc;
+  text-align: right;
+}
+
+#header > div {
+  display: inline-block;
+}
+
+#header-text {
+  padding-bottom: 40px;
+}
+
+#header-portrait {
+  margin: 10px;
+  vertical-align: bottom;
+}
+
+#header-portrait img {
+  border: solid 10px #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+}
+
+#header-text {
+  /*font-family: 'Lobster', sans-serif;*/
+  /*font-family: 'Courgette', sans-serif;*/
+  /*font-family: 'Berkshire Swash', sans-serif;*/
+  /*font-family: 'Merienda One', sans-serif;*/
+  /*font-family: 'Aladin', sans-serif;*/
+  /*font-family: 'Fondamento', sans-serif;*/
+  /*font-family: 'Poller One', sans-serif;*/
+  /*font-family: 'Lily Script One', sans-serif;*/
+  font-family: 'Chelsea Market', sans-serif;
+  font-size: 24px;
+}
+
+#content {
+  margin-left: 20px;
+}

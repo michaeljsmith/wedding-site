@@ -4,6 +4,7 @@
     <title>Kristy and Michael's Wedding - Reception</title>
   </head>
   <body>
+    <include file="header.htmlsnippet">
     <h1>Reception</h1>
 
     <p>
@@ -99,5 +100,6 @@
     </p>
     <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps?f=d&amp;source=s_d&amp;saddr=Curzon+Hall,+53+Agincourt+Road,+Marsfield+NSW+2122&amp;daddr=-33.77804,151.107455+to:Epping+Rd+Near+Culloden+Rd+%40-33.774822,151.104490&amp;hl=en&amp;geocode=FTyO_P0dUKgBCSnRbrd5eKYSazEjGyPUDcOGVg%3BFYiW_P0df7cBCSn_j-0Rd6YSazG9hcOMhn7i-g%3BFRqj_P0d6qsBCQ&amp;aq=0&amp;oq=Sydney&amp;sll=-33.776891,151.103565&amp;sspn=0.005458,0.010557&amp;dirflg=w&amp;mra=dpe&amp;mrsp=1&amp;sz=17&amp;via=1&amp;ie=UTF8&amp;t=m&amp;ll=-33.776882,151.103575&amp;spn=0.008561,0.013733&amp;z=16&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.au/maps?f=d&amp;source=embed&amp;saddr=Curzon+Hall,+53+Agincourt+Road,+Marsfield+NSW+2122&amp;daddr=-33.77804,151.107455+to:Epping+Rd+Near+Culloden+Rd+%40-33.774822,151.104490&amp;hl=en&amp;geocode=FTyO_P0dUKgBCSnRbrd5eKYSazEjGyPUDcOGVg%3BFYiW_P0df7cBCSn_j-0Rd6YSazG9hcOMhn7i-g%3BFRqj_P0d6qsBCQ&amp;aq=0&amp;oq=Sydney&amp;sll=-33.776891,151.103565&amp;sspn=0.005458,0.010557&amp;dirflg=w&amp;mra=dpe&amp;mrsp=1&amp;sz=17&amp;via=1&amp;ie=UTF8&amp;t=m&amp;ll=-33.776882,151.103575&amp;spn=0.008561,0.013733&amp;z=16" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
+    <include file="footer.htmlsnippet">
   </body>
 </html>
