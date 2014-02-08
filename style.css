@@ -2,15 +2,17 @@ body {
   margin: 0;
   padding: 0;
   text-align: left;
-  font-family: 'Cabin', sans-serif;
   color: #061C37;
-  background: #EEEFE4;
+  /*background: #fff;*/
+  background: -webkit-linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* For Safari */
+  background: -o-linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* Standard syntax */
 }
 
 #container {
-  width: 1000px;
-  margin: 0 auto;
-  background-color: #ccddee;
+  width: 800px;
+  margin: 20px auto;
 
   /*border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -20,9 +22,6 @@ body {
   -moz-box-shadow: 3px 3px 3px #777;
   box-shadow: 3px 3px 3px #777;
 }
-
-/*#E4EFF4
-#9AC3D6*/
 
 #header {
   height: 250px;
@@ -45,11 +44,30 @@ body {
 
 #header-text {
   padding-bottom: 40px;
+
+  /*font-family: 'Lobster', sans-serif;*/
+  /*font-family: 'Courgette', sans-serif;*/
+  /*font-family: 'Berkshire Swash', sans-serif;*/
+  /*font-family: 'Merienda One', sans-serif;*/
+  /*font-family: 'Aladin', sans-serif;*/
+  /*font-family: 'Fondamento', sans-serif;*/
+  /*font-family: 'Poller One', sans-serif;*/
+  /*font-family: 'Lily Script One', sans-serif;*/
+  /*font-family: 'Chelsea Market', sans-serif;*/
+  /*font-family: 'Cabin', sans-serif;*/
+  font-family: 'Myriad Web', sans-serif;
+  font-weight: bold;
+  color: #ccd;
+  font-size: 24px;
 }
 
 #header-portrait {
   margin: 10px;
   vertical-align: bottom;
+
+  transform:rotate(4deg);
+  -ms-transform:rotate(4deg); /* IE 9 */
+  -webkit-transform:rotate(4deg); /* Safari and Chrome */
 }
 
 #header-portrait img {
@@ -59,19 +77,48 @@ body {
   box-shadow: 3px 3px 3px #777;
 }
 
-#header-text {
-  /*font-family: 'Lobster', sans-serif;*/
-  /*font-family: 'Courgette', sans-serif;*/
-  /*font-family: 'Berkshire Swash', sans-serif;*/
-  /*font-family: 'Merienda One', sans-serif;*/
-  /*font-family: 'Aladin', sans-serif;*/
-  /*font-family: 'Fondamento', sans-serif;*/
-  /*font-family: 'Poller One', sans-serif;*/
-  /*font-family: 'Lily Script One', sans-serif;*/
-  font-family: 'Chelsea Market', sans-serif;
-  font-size: 24px;
+#content {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: solid 1px #78c;
+  font-family: 'Cabin', sans-serif;
+  background-color: #fff;
+  color: #124;
 }
 
-#content {
-  margin-left: 20px;
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 10px #fff;
+  border-bottom: solid 20px #fff;
+}
+
+tr {
+  border-top: solid 1px #fff;
+  background-color: #f0f0fc;
+}
+
+thead th {
+  border-right: solid 1px #fff;
+  background-color: #ddf;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+td {
+  border-right: solid 1px #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
