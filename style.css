@@ -3,7 +3,6 @@ body {
   padding: 0;
   text-align: left;
   color: #061C37;
-  /*background: #fff;*/
   background: -webkit-linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* For Safari */
   background: -o-linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* For Firefox 3.6 to 15 */
@@ -14,28 +13,17 @@ body {
   width: 800px;
   margin: 20px auto;
 
-  /*border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;*/
-
   -webkit-box-shadow: 3px 3px 3px #777;
   -moz-box-shadow: 3px 3px 3px #777;
   box-shadow: 3px 3px 3px #777;
 }
 
 #header {
-  height: 250px;
+  height: 235px;
   background-image: url('images/header-bkg.jpg');
   background-size: 100%;
   background-color: #a8d3fd;
   text-align: right;
-
-  /*border-top-left-radius: 15px;
-  -webkit-border-top-left-radius: 15px;
-  -moz-border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  -webkit-border-top-right-radius: 15px;
-  -moz-border-top-right-radius: 15px;*/
 }
 
 #header > div {
@@ -43,18 +31,8 @@ body {
 }
 
 #header-text {
-  padding-bottom: 40px;
+  padding-bottom: 55px;
 
-  /*font-family: 'Lobster', sans-serif;*/
-  /*font-family: 'Courgette', sans-serif;*/
-  /*font-family: 'Berkshire Swash', sans-serif;*/
-  /*font-family: 'Merienda One', sans-serif;*/
-  /*font-family: 'Aladin', sans-serif;*/
-  /*font-family: 'Fondamento', sans-serif;*/
-  /*font-family: 'Poller One', sans-serif;*/
-  /*font-family: 'Lily Script One', sans-serif;*/
-  /*font-family: 'Chelsea Market', sans-serif;*/
-  /*font-family: 'Cabin', sans-serif;*/
   font-family: 'Myriad Web', sans-serif;
   font-weight: bold;
   color: #ccd;
@@ -65,9 +43,13 @@ body {
   margin: 10px;
   vertical-align: bottom;
 
-  transform:rotate(4deg);
-  -ms-transform:rotate(4deg); /* IE 9 */
-  -webkit-transform:rotate(4deg); /* Safari and Chrome */
+  transform: rotate(4deg) translateX(10px) translateY(-15px);
+  -ms-transform: rotate(4deg) translateX(10px) translateY(-15px); /* IE 9 */
+  -webkit-transform: rotate(4deg) translateX(10px) translateY(-15px); /* Safari and Chrome */
+
+  /*transform: translateY(-10px);*/
+  /*-ms-transform: translateY(-10px);*/ /* IE 9 */
+  /*-webkit-transform: translateY(-10px);*/ /* Safari and Chrome */
 }
 
 #header-portrait img {
@@ -80,6 +62,7 @@ body {
 #content {
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 10px;
   border-top: solid 1px #78c;
   font-family: 'Cabin', sans-serif;
   background-color: #fff;
