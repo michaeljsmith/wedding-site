@@ -1,9 +1,9 @@
     <div id="container">
-      <div id="header">
+      <a id="header" href="/">
         <div id="header-text">
           <div>Kristy &amp;</div>
           <div>Michael</div>
         </div>
         <div id="header-portrait"><img width="250px" height="250px" src="images/header-portrait.jpg"></div>
-      </div>
+      </a>
       <div id="content">

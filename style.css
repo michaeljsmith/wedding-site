@@ -18,6 +18,10 @@ body {
   box-shadow: 3px 3px 3px #777;
 }
 
+#container > a {
+  display: block;
+}
+
 #header {
   height: 235px;
   background-image: url('images/header-bkg.jpg');
