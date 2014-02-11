@@ -31,12 +31,15 @@ body {
 }
 
 #header-text {
-  padding-bottom: 55px;
+  padding-bottom: 60px;
 
-  font-family: 'Myriad Web', sans-serif;
+  font-family: 'Corben', sans-serif;
+  /*font-family: 'Myriad Web', sans-serif;*/
   font-weight: bold;
+  line-height: 36px;
   color: #ccd;
-  font-size: 24px;
+  font-size: 36px;
+  text-align: center;
 }
 
 #header-portrait {
@@ -64,7 +67,7 @@ body {
   padding-right: 20px;
   padding-bottom: 10px;
   border-top: solid 1px #78c;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Corben', sans-serif;
   background-color: #fff;
   color: #124;
 }
@@ -105,3 +108,6 @@ td {
   padding-bottom: 6px;
 }
 
+thead th, td {
+  text-align: center;
+}
