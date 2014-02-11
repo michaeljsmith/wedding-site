@@ -4,6 +4,6 @@
           <div>Kristy &amp;</div>
           <div>Michael</div>
         </div>
-        <div id="header-portrait"><img width="250px" height="250px" src="images/header-portrait.jpg"></div>
+        <div id="header-portrait"><img width="250" height="250" src="images/header-portrait.jpg" alt="Portrait of Kristy and Michael"></div>
       </a>
       <div id="content">
