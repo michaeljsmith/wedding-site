@@ -1,12 +1,15 @@
+html, body {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
-  text-align: left;
   color: #061C37;
-  background: -webkit-linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* For Safari */
-  background: -o-linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(top, #e4eff4 0%, #9ac3d6 800px); /* Standard syntax */
+  background: -webkit-linear-gradient(top, #e4eff4 0%, #9ac3d6 100%) fixed; /* For Safari */
+  background: -o-linear-gradient(top, #e4eff4 0%, #9ac3d6 100%) fixed; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #e4eff4 0%, #9ac3d6 100%) fixed; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(top, #e4eff4 0%, #9ac3d6 100%) fixed; /* Standard syntax */
 }
 
 #container {
@@ -75,6 +78,13 @@ body {
   color: #124;
 }
 
+#content h1, #content h2, #content h3 {
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  font-weight: italic;
+}
+
 iframe {
   display: block;
   margin-left: auto;
@@ -113,4 +123,25 @@ td {
 
 thead th, td {
   text-align: center;
+}
+
+.time-and-place {
+  padding-top: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+.time-and-place > div {
+  border: solid 1px #fff;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: center;
+}
+
+.time-and-place > div:nth-child(odd) {
+  background-color: #ddf;
+}
+
+.time-and-place > div:nth-child(even) {
+  background-color: #f0f0fc;
 }
