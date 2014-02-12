@@ -55,10 +55,6 @@ body {
   transform: rotate(4deg) translateX(10px) translateY(-15px);
   -ms-transform: rotate(4deg) translateX(10px) translateY(-15px); /* IE 9 */
   -webkit-transform: rotate(4deg) translateX(10px) translateY(-15px); /* Safari and Chrome */
-
-  /*transform: translateY(-10px);*/
-  /*-ms-transform: translateY(-10px);*/ /* IE 9 */
-  /*-webkit-transform: translateY(-10px);*/ /* Safari and Chrome */
 }
 
 #header-portrait img {
@@ -79,7 +75,6 @@ body {
 }
 
 #content h1, #content h2, #content h3 {
-  padding-top: 30px;
   text-align: center;
   margin: auto;
   font-weight: italic;
