@@ -53,7 +53,7 @@
       for an adult</a>.  </p>
 
     <table>
-      <tr><th /><th>Route Map</th><th>Timetable</th><th>Type of Ticket Required</th></tr>
+      <tr><th></th><th>Route Map</th><th>Timetable</th><th>Type of Ticket Required</th></tr>
       <tr><td>M40</td><td><a href="buses/M40/map.pdf">map.pdf</a></td><td><a href="buses/M40/timetable.pdf">timetable.pdf</a></td><td>MyBus 2</td></tr>
     </table>
 
