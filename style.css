@@ -99,7 +99,7 @@ tr {
   background-color: #f0f0fc;
 }
 
-thead th {
+th {
   border-right: solid 1px #fff;
   background-color: #ddf;
   padding-left: 30px;
@@ -116,7 +116,7 @@ td {
   padding-bottom: 6px;
 }
 
-thead th, td {
+th, td {
   text-align: center;
 }
 

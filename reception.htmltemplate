@@ -49,7 +49,7 @@
     Chatswood (the end of the line). The cost should be $2.30 for an adult.</p>
 
     <table>
-      <thead><th></th><th>Route Map</th><th>Timetable</th></thead>
+      <tr><th /><th>Route Map</th><th>Timetable</th></tr>
       <tr><td>267</td><td><a href="buses/267/map.pdf">map.pdf</a></td><td><a href="buses/267/timetable.pdf">timetable.pdf</a></td></tr>
     </table>
 
@@ -69,7 +69,7 @@
     </p>
 
     <table>
-      <thead><th></th><th>Route Map</th><th>Timetable</th></thead>
+      <tr><th /><th>Route Map</th><th>Timetable</th></tr>
       <tr><td>545</td><td><a href="buses/545/map.pdf">map.pdf</a></td><td><a href="buses/545/timetable.pdf">timetable.pdf</a></td></tr>
     </table>
 
