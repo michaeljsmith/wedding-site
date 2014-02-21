@@ -65,6 +65,7 @@ body {
 }
 
 #content {
+  padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
@@ -72,10 +73,10 @@ body {
   font-family: 'Corben', sans-serif;
   background-color: #fff;
   color: #124;
+  text-align: center;
 }
 
 #content h1, #content h2, #content h3 {
-  text-align: center;
   margin: auto;
   font-weight: italic;
 }
@@ -140,3 +141,43 @@ th, td {
 .time-and-place > div:nth-child(even) {
   background-color: #f0f0fc;
 }
+
+.photo-gallery {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.photo-gallery img {
+  display: inline-block;
+  max-width:190px;
+  max-height:190px;
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  border: solid 1px #cfcfcf;
+  padding: 10px;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+  -webkit-transition: -webkit-transform 0.1s ease-in;
+  -moz-transition: -moz-transform 0.1s ease-in;
+  transition: transform 0.1s ease-in;
+}
+
+.photo-gallery img:hover, .photo-gallery img:focus, .photo-gallery img:active {
+  z-index: 999;
+  -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+  -moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+  box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  transform: scale(2);
+}
+
+.photo-gallery div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+

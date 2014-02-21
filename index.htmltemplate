@@ -18,6 +18,8 @@
     The event will take place in Sydney. We look forward to celebrating the occasion with friends and family.
     </p>
 
+    <include file="galleries/couple/gallery.htmlsnippet">
+
     <h2>Ceremony</h2>
     <div class='time-and-place'>
       <div>1:30pm</div>
