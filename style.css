@@ -144,11 +144,12 @@ th, td {
 
 .photo-gallery {
   padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .photo-gallery img {
+  position: relative;
   display: inline-block;
   max-width:190px;
   max-height:190px;
@@ -165,14 +166,104 @@ th, td {
   transition: transform 0.1s ease-in;
 }
 
+.photo-gallery > div:nth-child(8n+1) > img {
+  -webkit-transform: rotate(-5deg) scale(1.3);
+  -moz-transform: rotate(-5deg) scale(1.3);
+  transform: rotate(-5deg) scale(1.3);
+}
+
 .photo-gallery img:hover, .photo-gallery img:focus, .photo-gallery img:active {
   z-index: 999;
-  -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
-  -moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
-  box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
-  -webkit-transform: scale(2);
-  -moz-transform: scale(2);
-  transform: scale(2);
+}
+
+.photo-gallery > div:nth-child(8n+1) > img:hover, .photo-gallery > div:nth-child(8n+1) > img:focus, .photo-gallery > div:nth-child(8n+1) > img:active {
+  -webkit-transform: rotate(-5deg) scale(1.6);
+  -moz-transform: rotate(-5deg) scale(1.6);
+  transform: rotate(-5deg) scale(1.6);
+}
+
+.photo-gallery > div:nth-child(8n+2) > img {
+  -webkit-transform: rotate(3deg) scale(1.3);
+  -moz-transform: rotate(3deg) scale(1.3);
+  transform: rotate(3deg) scale(1.3);
+}
+
+.photo-gallery > div:nth-child(8n+2) > img:hover, .photo-gallery > div:nth-child(8n+2) > img:focus, .photo-gallery > div:nth-child(8n+2) > img:active {
+  -webkit-transform: rotate(3deg) scale(1.6);
+  -moz-transform: rotate(3deg) scale(1.6);
+  transform: rotate(3deg) scale(1.6);
+}
+
+.photo-gallery > div:nth-child(8n+3) > img {
+  -webkit-transform: rotate(12deg) scale(1.3);
+  -moz-transform: rotate(12deg) scale(1.3);
+  transform: rotate(12deg) scale(1.3);
+}
+
+.photo-gallery > div:nth-child(8n+3) > img:hover, .photo-gallery > div:nth-child(8n+3) > img:focus, .photo-gallery > div:nth-child(8n+3) > img:active {
+  -webkit-transform: rotate(12deg) scale(1.6);
+  -moz-transform: rotate(12deg) scale(1.6);
+  transform: rotate(12deg) scale(1.6);
+}
+
+.photo-gallery > div:nth-child(8n+4) > img {
+  -webkit-transform: rotate(2deg) scale(1.3);
+  -moz-transform: rotate(2deg) scale(1.3);
+  transform: rotate(2deg) scale(1.3);
+}
+
+.photo-gallery > div:nth-child(8n+4) > img:hover, .photo-gallery > div:nth-child(8n+4) > img:focus, .photo-gallery > div:nth-child(8n+4) > img:active {
+  -webkit-transform: rotate(2deg) scale(1.6);
+  -moz-transform: rotate(2deg) scale(1.6);
+  transform: rotate(2deg) scale(1.6);
+}
+
+.photo-gallery > div:nth-child(8n+5) > img {
+  -webkit-transform: rotate(-8deg) scale(1.3);
+  -moz-transform: rotate(-8deg) scale(1.3);
+  transform: rotate(-8deg) scale(1.3);
+}
+
+.photo-gallery > div:nth-child(8n+5) > img:hover, .photo-gallery > div:nth-child(8n+5) > img:focus, .photo-gallery > div:nth-child(8n+5) > img:active {
+  -webkit-transform: rotate(-8deg) scale(1.6);
+  -moz-transform: rotate(-8deg) scale(1.6);
+  transform: rotate(-8deg) scale(1.6);
+}
+
+.photo-gallery > div:nth-child(8n+6) > img {
+  -webkit-transform: rotate(4deg) scale(1.3);
+  -moz-transform: rotate(4deg) scale(1.3);
+  transform: rotate(4deg) scale(1.3);
+}
+
+.photo-gallery > div:nth-child(8n+6) > img:hover, .photo-gallery > div:nth-child(8n+6) > img:focus, .photo-gallery > div:nth-child(8n+6) > img:active {
+  -webkit-transform: rotate(4deg) scale(1.6);
+  -moz-transform: rotate(4deg) scale(1.6);
+  transform: rotate(4deg) scale(1.6);
+}
+
+.photo-gallery > div:nth-child(8n+7) > img {
+  -webkit-transform: rotate(-3deg) scale(1.3);
+  -moz-transform: rotate(-3deg) scale(1.3);
+  transform: rotate(-3deg) scale(1.3);
+}
+
+.photo-gallery > div:nth-child(8n+7) > img:hover, .photo-gallery > div:nth-child(8n+7) > img:focus, .photo-gallery > div:nth-child(8n+7) > img:active {
+  -webkit-transform: rotate(-3deg) scale(1.6);
+  -moz-transform: rotate(-3deg) scale(1.6);
+  transform: rotate(-3deg) scale(1.6);
+}
+
+.photo-gallery > div:nth-child(8n+0) > img {
+  -webkit-transform: rotate(-10deg) scale(1.3);
+  -moz-transform: rotate(-10deg) scale(1.3);
+  transform: rotate(-10deg) scale(1.3);
+}
+
+.photo-gallery > div:nth-child(8n+0) > img:hover, .photo-gallery > div:nth-child(8n+0) > img:focus, .photo-gallery > div:nth-child(8n+0) > img:active {
+  -webkit-transform: rotate(-10deg) scale(1.6);
+  -moz-transform: rotate(-10deg) scale(1.6);
+  transform: rotate(-10deg) scale(1.6);
 }
 
 .photo-gallery div {
